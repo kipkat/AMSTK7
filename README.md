@@ -26,4 +26,5 @@ True
 >>> repeat_amstk7('test',2)==amstk7(amstk7('test')) # same thing
 True
 >>> repeat_amstk7('test',150) # repeats algorithm 150 times
-'6991GAA9G84A4AAUA620A39A91A7AY2331A92A71398A1A14A3482128A9919710'```
+'6991GAA9G84A4AAUA620A39A91A7AY2331A92A71398A1A14A3482128A9919710'
+```
