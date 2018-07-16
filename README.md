@@ -2,7 +2,7 @@
 Python Encryption Algorithm - Fast, secure and impossible to reverse
 # Usage old algorithm
 ```py
->>> from amstk import *
+>>> from algorithm7 import *
 >>> amstk7('password')
 'MMI1GMI85381E395M61GM805EEG5E5M3MM65E65E85E5W87561638I18Q715IE10'
 >>> amstk7('password',16) # last 16 chars
