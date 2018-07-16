@@ -1,5 +1,4 @@
 import random as nature
-import newalg7
 
 def amstk7(s: str, chars: int = 64):
     seed = len(s)
