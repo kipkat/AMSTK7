@@ -1,6 +1,6 @@
 # AMSTK7
 Python Encryption Algorithm - Fast, secure and impossible to reverse
-# Usage
+# Usage old algorithm
 ```py
 >>> from amstk import *
 >>> amstk7('password')
@@ -28,3 +28,24 @@ True
 >>> repeat_amstk7('test',150) # repeats algorithm 150 times
 '6991GAA9G84A4AAUA620A39A91A7AY2331A92A71398A1A14A3482128A9919710'
 ```
+# Usage new algorithm
+```py
+>>> from newalg7 import amstk9 as encr
+>>> encr('test') # basic new algorithm
+'530Q333X6511EEQ6Q639E1993A2D47542Q393U636681123794O8906E16JMC612'
+>>> encr('test', 15) # get last 15 characters
+'4O8906E16JMC612'
+>>> encr('test', 15, 2) # seed with 2
+'EE2YI6311J4O21A'
+>>> encr('test', 15, 3) # seed with 3
+'9SC12J61O9Q12YT'
+>>> encr('test', 15, 3, 5) # change the mod at 5 => only A B C D E
+'A44361121D6AA62'
+>>> encr('onlyABCDE', 25, 3, 5) # bigger example of charmap changing
+'C3A657376C1E6A935B4E13333'
+>>> encr('onlyXYZ', 25, 3, 3, 88) # now the alphabet starts at 88 (X) -> X Y Z
+'079XX18X3Y1X36818XY1ZX109'
+>>> encr('onlyXYZ', 25, 3, 3, 88, {'0':'x', '1':'y', '2':'z'}) # replace dict example
+'x79XXy8X3YyX368y8XYyZXyx9'
+>>> encr('onlyXYZ', 25, 3, 3, 88, {'X':'00X00','Y':'00Y00', 'Z':'00Z00'}) # you can replace into string
+'07900X0000X001800X00300Y00100X003681800X0000Y00100Z0000X00109'```
