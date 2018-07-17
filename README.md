@@ -48,4 +48,7 @@ True
 >>> encr('onlyXYZ', 25, 3, 3, 88, {'0':'x', '1':'y', '2':'z'}) # replace dict example
 'x79XXy8X3YyX368y8XYyZXyx9'
 >>> encr('onlyXYZ', 25, 3, 3, 88, {'X':'00X00','Y':'00Y00', 'Z':'00Z00'}) # you can replace into string
-'07900X0000X001800X00300Y00100X003681800X0000Y00100Z0000X00109'```
+'07900X0000X001800X00300Y00100X003681800X0000Y00100Z0000X00109'
+```
+# Installation
+`git clone https://github.com/kipkat/AMSTK7 *python lib folder location*`
