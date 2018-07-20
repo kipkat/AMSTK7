@@ -54,4 +54,5 @@ True
 `git clone https://github.com/kipkat/AMSTK7 *python lib folder location*`
 
 Example of windows installation:
+
 `git clone https://www.github.com/kipkat/AMSTK7 C:\Users\%username%\AppData\Local\Programs\Python\Python37-32\Lib\amstk7`
